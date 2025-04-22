@@ -1,3 +1,4 @@
+
 # National Student Tracker - Matplotlib Console-Compatible Version
 
 import pandas as pd
@@ -85,4 +86,3 @@ plt.show()
 # ---- Top Students Preview ----
 print("\n🔍 Top Enrollment Candidates")
 print(data.sort_values(by='enrollment_likelihood', ascending=False)[['id', 'region', 'GPA', 'age', 'enrollment_likelihood']].head(10))
-
